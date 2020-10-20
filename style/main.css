@@ -1,0 +1,152 @@
+/* Defaul settings
+=============================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1400px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header
+=============================== */
+
+.header-title {
+    padding-top: 100px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+}
+
+.header-line {
+    margin: 0 auto 30px;
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
+    border: none;
+}
+
+.header-description {
+    margin-bottom: 67px;
+    font-size: 14px;
+    color: #86878B;
+    ;
+}
+
+/* Main > .benefits
+=============================== */
+
+.benefits {
+    margin-bottom: 107px;
+}
+.card {
+    display: inline-block;
+    width: 350px;
+    margin: 0 16px;
+}
+.icon {
+    margin: 0 auto 30px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+}
+
+.icon-lamp {
+    background: url(../images/lamp.png) no-repeat center;
+}
+
+.icon-keyboard {
+    background: url(../images/keyboard.png) no-repeat center;
+}
+
+.icon-lightning {
+    background: url(../images/lightning.png) no-repeat center;
+}
+
+.card-title {
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+/* Main > .stylish-design
+=============================== */
+
+.stylish-design {
+    background: linear-gradient(rgba(0,0,0,0.65),
+    rgba(0,0,0,0.65)), url(../images/stylish-design.png);
+}
+
+.stylish-title {
+    padding-top: 76px;
+    margin-bottom: 48px;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Raleway';
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.stylish-line {
+    width: 64px;
+    height: 2px;
+    margin: 0 auto 30px;
+    background-color: #fff;
+}
+
+.stylish-text {
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.stylish-button {
+    display: inline-block;
+    width: 135px;
+    height: 42px;
+    padding: 11px 26px;
+    margin-bottom: 38px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+/* Footer
+=============================== */
+
+.footer {
+    background-color: #000;
+}
+
+.footer-social-icons {
+    padding-top: 30px;
+    margin-bottom: 18px;
+}
+
+.social-link {
+    margin: 0 13px;
+}
+
+.social-link {
+    filter: invert(1);
+}
+
+.footer-text {
+    padding-bottom: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
